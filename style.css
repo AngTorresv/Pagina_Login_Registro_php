@@ -1,0 +1,68 @@
+body {
+
+    background-image: radial-gradient(circle at 50%-28.71%, #c1cc22 0,#90ffab 12.5%, #76ffb0 25%, #54ffb5 37.5%,#88ffbb 50%, #00ffbc 62.5%, #206d5f 75% , #253836 87.5%, #1c2c2b 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'Lato',sans-serif;
+    font-family: 'Open Sans',sans-serif;
+    font-family: 'PT Sans',sans-serif;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 200px;
+    border: 3px solid wheat ;
+    background-color: black;
+    border-radius: 20px;
+    color:wheat;
+    border: none
+}
+
+h1{  
+    display: block;
+    border: 3px solid black ;
+    width: 95%;
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+ }
+
+label{
+
+    color:antiquewhite;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 800;
+} 
+
+button{
+
+    float: right;
+    background-color:#253836;
+    padding: 15px;
+    color:wheat;
+    width: 50%;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: darkblue;
+    color:yellowgreen;
+}
+a{
+    float: center;
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration-color: darkslateblue;
+    color:#1c2c2b;
+}
